@@ -8,6 +8,13 @@ Este trabalho visa **desenvolver e avaliar modelos de Aprendizado de Máquina pa
 
 # Metodologia
 
+O trabalho foi desenvolvido seguindo uma metodologia de ciclo de experimento, conforme ilustrado na figura abaixo. Esse processo inclui desde a fase inicial de coleta de dados até as etapas subsequentes de análise dos resultados.
+
+<p>
+    <img src="assets/img/ciclo_exp.png" alt>
+    <em>Ciclo de um experimento de dados</em>
+</p>
+
 No treinamento dos modelos, 50 pontos aleatórios no estado do Pará, Brasil, foram escolhidos para a seleção de variáveis de sensoriamento remoto correlacionadas ao NO2.
 
 ![Pontos de coleta das amostras](./pontos_coleta.svg)

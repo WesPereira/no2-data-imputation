@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 
 title: Imputação de dados de NO2 do TROPOMI
-logo: /assets/img/pontos_coleta.png
+logo: /assets/img/logo2.png
 description: Aplicação de modelos de Aprendizado de Máquina na estimação da coluna troposférica de NO2 do TROPOMI no estado do Pará
 show_downloads: true
 google_analytics:

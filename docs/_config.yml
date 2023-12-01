@@ -8,3 +8,4 @@ google_analytics:
 github:
   zip_url: https://github.com/WesPereira/no2-data-imputation/archive/refs/heads/main.zip
   repository_url: https://github.com/WesPereira/no2-data-imputation
+  datamap_url: https://datamap-webapp.vercel.app/

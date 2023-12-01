@@ -9,3 +9,5 @@ Este trabalho visa **desenvolver e avaliar modelos de Aprendizado de Máquina pa
 # Metodologia
 
 No treinamento dos modelos, 50 pontos aleatórios no estado do Pará, Brasil, foram escolhidos para a seleção de variáveis de sensoriamento remoto correlacionadas ao NO2.
+
+![Pontos de coleta das amostras](./pontos_coleta.svg)

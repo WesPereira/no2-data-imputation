@@ -1,8 +1,8 @@
 theme: jekyll-theme-minimal
 
-title: Aplicação de modelos de Aprendizado de Máquina na estimação da coluna troposférica de NO2 do TROPOMI no estado do Pará
-logo:
-description: Este projeto utiliza sensoriamento remoto e técnicas de Aprendizado de Máquina para estimar a concentração de NO2 na Amazônia, especificamente no Pará, Brasil. Envolve coleta e análise de dados de diversas fontes de sensoriamento remoto, mostrando resultados promissores e contribuindo para o monitoramento ambiental.
+title: Imputação de dados de NO2 do TROPOMI
+logo: /assets/img/logo2.png
+description: Aplicação de modelos de Aprendizado de Máquina na estimação da coluna troposférica de NO2 do TROPOMI no estado do Pará
 show_downloads: true
 google_analytics:
 github:

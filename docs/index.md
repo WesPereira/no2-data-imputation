@@ -33,8 +33,26 @@ O trabalho foi estruturado em torno de um estudo de caso, onde, para treinar os 
     <em> <b>Figura 2: </b>Mapa da distribuição geográfica dos pontos de coleta de amostras no estado do Pará, Brasil</em>
 </p>
 
-# Seleção das variáveis independentes
+## Seleção das variáveis independentes
 
 <p align="justify">
 Os critérios estabelecidos para a escolha das variáveis de sensoriamento remoto (variáveis independentes) empregadas na estimativa da concentração de NO2 foram os seguintes:
+    <ol>
+      <li>Disponibilidade do dado via API do Google Earth Engine;</li>
+      <li>Resolução temporal diária;</li>
+      <li>Possível correlação/influência com a concentração da coluna troposférica de NO2 do ponto de vista físico;p</li>
+    </ol>
+
+Assim, as seguintes variáveis foram selecionadas baseadas nos críterios definidos acima:
+
+| Nome da variável        | Código da Coleção          | Res. espacial (m) |
+|:-------------|:------------------|:------|
+| ```Optical_Depth_047```           | ```MODIS/061/MCD19A2_GRANULES``` | 1000  |
+| ```Column_WV```           | ```MODIS/061/MCD19A2_GRANULES``` | 1000  |
+| ```precipitationCal```           | ```NASA/GPM_L3/IMERG_V06``` | 11132  |
+| ```temperature_2m```           | ```ECMWF/ERA5_LAND/DAILY_AGGR``` | 11132  |
+| ```evaporation_from_bare_soil_sum```           | ```ECMWF/ERA5_LAND/DAILY_AGGR``` | 11132  |
+| ```volumetric_soil_water_layer_1```           | ```ECMWF/ERA5_LAND/DAILY_AGGR``` | 11132  |
+| ```surface_latent_heat_flux_sum```           | ```ECMWF/ERA5_LAND/DAILY_AGGR``` | 11132  |
+| ```sm_surface```           | ```NASA/SMAP/SPL4SMGP/007``` | 11000  |
 </p>

@@ -25,7 +25,7 @@ O trabalho foi desenvolvido seguindo uma metodologia de ciclo de experimento, co
 
 ## Estudo de Caso
 <p align="justify">
-O trabalho foi estruturado em torno de um estudo de caso, onde, para treinar os modelos, selecionaram-se aleatoriamente 50 pontos no estado do Pará, Brasil, para coletar variáveis de sensoriamento remoto associadas à concentração de NO2.
+O desenvolvimento foi estruturado em torno de um estudo de caso, onde, para treinar os modelos, selecionaram-se aleatoriamente 50 pontos no estado do Pará, Brasil, para coletar variáveis de sensoriamento remoto associadas à concentração de NO2.
 </p>
 
 <p  align="center">
@@ -40,7 +40,7 @@ Os critérios estabelecidos para a escolha das variáveis de sensoriamento remot
     <ol>
       <li>Disponibilidade do dado via API do Google Earth Engine;</li>
       <li>Resolução temporal diária;</li>
-      <li>Possível correlação/influência com a concentração da coluna troposférica de NO2 do ponto de vista físico;p</li>
+      <li>Possível correlação/influência com a concentração da coluna troposférica de NO2 do ponto de vista físico;</li>
     </ol>
 
 Assim, as seguintes variáveis foram selecionadas baseadas nos críterios definidos acima:
@@ -56,3 +56,22 @@ Assim, as seguintes variáveis foram selecionadas baseadas nos críterios defini
 | ```volumetric_soil_water_layer_1```           | ```ECMWF/ERA5_LAND/DAILY_AGGR``` | 11132  |
 | ```surface_latent_heat_flux_sum```           | ```ECMWF/ERA5_LAND/DAILY_AGGR``` | 11132  |
 | ```sm_surface```           | ```NASA/SMAP/SPL4SMGP/007``` | 11000  |
+
+## Modelos de machine learning
+
+<p align="justify">
+Ao longo do projeto, explorou-se uma gama de modelos de Machine Learning, de técnicas tradicionais a Deep Learning, selecionados com base em literatura prévia para resolver problemas de regressão. Os modelos testados incluem:
+    <ol>
+      <li>Lasso;</li>
+      <li>Florestas aleatórias (Random Forest);</li>
+      <li>Algoritmos Baseados em Boosting:</li>
+        <ol>
+            <li>LightGBM;</li>
+            <li>XGBoost;</li>
+        </ol>
+      <li>Convolução 1D;</li>
+      <li>Gated Recurrent Unit (GRU);</li>
+      <li>Long Short-Term Memory (LSTM);</li>
+      <li>Convolutional Long Short-Term Memory (ConvLSTM).</li>
+    </ol>
+</p>

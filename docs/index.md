@@ -7,10 +7,12 @@ O uso de dados de sensoriamento remoto é crucial no monitoramento das mudanças
 ## Objetivo
 
 <p align="justify">
-Este trabalho visa **desenvolver e avaliar modelos de Aprendizado de Máquina para estimar a concentração de NO2 na coluna troposférica**, usando dados do sensor TROPOMI do satélite Sentinel-5P. Focando na Amazônia, o estudo busca superar dificuldades na coleta de dados precisos devido à presença de nuvens, contribuindo para o monitoramento da qualidade do ar e entendimento dos impactos humanos no equilíbrio ambiental global.
+Este trabalho visa <b>desenvolver e avaliar modelos de Aprendizado de Máquina para estimar a concentração de NO2 na coluna troposférica </b>, usando dados do sensor TROPOMI do satélite Sentinel-5P. Focando na Amazônia, o estudo busca superar dificuldades na coleta de dados precisos devido à presença de nuvens, contribuindo para o monitoramento da qualidade do ar e entendimento dos impactos humanos no equilíbrio ambiental global.
 </p>
 
 # Metodologia
+
+## Pipeline de pré-processamento
 
 <p align="justify">
 O trabalho foi desenvolvido seguindo uma metodologia de ciclo de experimento, conforme ilustrado na figura abaixo. Esse processo inclui desde a fase inicial de coleta de dados até as etapas subsequentes de análise dos resultados.
@@ -18,14 +20,21 @@ O trabalho foi desenvolvido seguindo uma metodologia de ciclo de experimento, co
 
 <p  align="center">
     <img src="assets/img/ciclo_exp.png" alt>
-    <em> <b>Figura 1: </b>Ciclo de um experimento de dados</em>
+    <em> <b>Figura 1: </b>Diagrama do ciclo de experimento um experimento de dados em oito passos</em>
 </p>
 
+## Estudo de Caso
 <p align="justify">
-No treinamento dos modelos, 50 pontos aleatórios no estado do Pará, Brasil, foram escolhidos para a seleção de variáveis de sensoriamento remoto correlacionadas ao NO2.
+O trabalho foi estruturado em torno de um estudo de caso, onde, para treinar os modelos, selecionaram-se aleatoriamente 50 pontos no estado do Pará, Brasil, para coletar variáveis de sensoriamento remoto associadas à concentração de NO2.
 </p>
 
 <p  align="center">
     <img src="assets/img/pontos_coleta.png" alt>
-    <em> <b>Figura 2: </b>Pontos de coleta dos dados</em>
+    <em> <b>Figura 2: </b>Mapa da distribuição geográfica dos pontos de coleta de amostras no estado do Pará, Brasil</em>
+</p>
+
+# Seleção das variáveis independentes
+
+<p align="justify">
+Os critérios estabelecidos para a escolha das variáveis de sensoriamento remoto (variáveis independentes) empregadas na estimativa da concentração de NO2 foram os seguintes:
 </p>

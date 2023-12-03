@@ -1,18 +1,20 @@
-# Contexto e Motivação
+# Aplicação de modelos de Aprendizado de Máquina na estimação da coluna troposférica de NO2 do TROPOMI no estado do Pará
+
+## Contexto e Motivação
 
 <p align="justify">
 O uso de dados de sensoriamento remoto é crucial no monitoramento das mudanças ambientais globais e na observação da Terra, especialmente na região do Pará, Brasil, onde a Amazônia enfrenta desafios devido à atividade humana. Dados do satélite Sentinel-5P e seu instrumento TROPOMI são fundamentais para monitorar a qualidade do ar e a concentração de dióxido de nitrogênio (NO2), ajudando a avaliar o impacto do desmatamento e queimadas na atmosfera amazônica.
 </p>
 
-## Objetivo
+### Objetivo
 
 <p align="justify">
 Este trabalho visa <b>desenvolver e avaliar modelos de Aprendizado de Máquina para estimar a concentração de NO2 na coluna troposférica </b>, usando dados do sensor TROPOMI do satélite Sentinel-5P. Focando na Amazônia, o estudo busca superar dificuldades na coleta de dados precisos devido à presença de nuvens, contribuindo para o monitoramento da qualidade do ar e entendimento dos impactos humanos no equilíbrio ambiental global.
 </p>
 
-# Metodologia
+## Metodologia
 
-## Pipeline de pré-processamento
+### Pipeline de pré-processamento
 
 <p align="justify">
 O trabalho foi desenvolvido seguindo uma metodologia de ciclo de experimento, conforme ilustrado na figura abaixo. Esse processo inclui desde a fase inicial de coleta de dados até as etapas subsequentes de análise dos resultados.
@@ -23,7 +25,7 @@ O trabalho foi desenvolvido seguindo uma metodologia de ciclo de experimento, co
     <em> <b>Figura 1: </b>Diagrama do ciclo de experimento um experimento de dados em oito passos</em>
 </p>
 
-## Estudo de Caso
+### Estudo de Caso
 <p align="justify">
 O desenvolvimento foi estruturado em torno de um estudo de caso, onde, para treinar os modelos, selecionaram-se aleatoriamente 50 pontos no estado do Pará, Brasil, para coletar variáveis de sensoriamento remoto associadas à concentração de NO2.
 </p>
@@ -33,7 +35,7 @@ O desenvolvimento foi estruturado em torno de um estudo de caso, onde, para trei
     <em> <b>Figura 2: </b>Mapa da distribuição geográfica dos pontos de coleta de amostras no estado do Pará, Brasil</em>
 </p>
 
-## Seleção das variáveis independentes
+### Seleção das variáveis independentes
 
 <p align="justify">
 Os critérios estabelecidos para a escolha das variáveis de sensoriamento remoto (variáveis independentes) empregadas na estimativa da concentração de NO2 foram os seguintes:
@@ -57,7 +59,7 @@ Assim, as seguintes variáveis foram selecionadas baseadas nos críterios defini
 | ```surface_latent_heat_flux_sum```           | ```ECMWF/ERA5_LAND/DAILY_AGGR``` | 11132  |
 | ```sm_surface```           | ```NASA/SMAP/SPL4SMGP/007``` | 11000  |
 
-## Modelos de machine learning
+### Modelos de machine learning
 
 <p align="justify">
 Ao longo do projeto, explorou-se uma gama de modelos de Machine Learning, de técnicas tradicionais a Deep Learning, selecionados com base em literatura prévia para resolver problemas de regressão. Os modelos testados incluem:
@@ -72,7 +74,7 @@ Ao longo do projeto, explorou-se uma gama de modelos de Machine Learning, de té
     </ul>
 </p>
 
-# Resultados e Conclusão
+## Resultados e Conclusão
 
 <p align="justify">
 A Tabela a seguir apresenta uma visão quantitativa comparativa dos resultados obtidos por cada modelo, destacando as principais métricas de avaliação.
@@ -102,6 +104,6 @@ Nota-se que os modelos baseados em árvores de decisão como XGBoost, Random For
 Os boxplots mostram que modelos de Machine Learning como LightGBM, XGBoost e Random Forest têm um desempenho notavelmente melhor, com erros menores e menos variabilidade, enquanto o AdaBoost tem uma dispersão maior de erros e as redes neurais, incluindo GRU, LSTM e ConvLSTM, apresentam os maiores erros e mais outliers, indicando a necessidade de mais dados ou de dados mais complexos.
 </p>
 
-## Conclusão
+### Conclusão
 
 O projeto demonstrou que a metodologia empregada para estimar a concentração de NO2 na coluna troposférica é viável e eficaz, com destaque para os modelos baseados em árvore que apresentaram resultados notáveis. Apesar dos modelos de deep learning não terem atingido o mesmo nível de sucesso, eles oferecem uma base importante para pesquisas e aprimoramentos futuros.

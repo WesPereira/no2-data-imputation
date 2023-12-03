@@ -71,3 +71,20 @@ Ao longo do projeto, explorou-se uma gama de modelos de Machine Learning, de té
       <li>Convolutional Long Short-Term Memory (ConvLSTM).</li>
     </ul>
 </p>
+
+# Resultados e Conclusão
+
+<p align="justify">
+A Tabela a seguir apresenta uma visão quantitativa comparativa dos resultados obtidos por cada modelo, destacando as principais métricas de avaliação.
+</p>
+
+| Modelo        | $R^2$          | r | MSE | RMSE | MAE |
+|:-------------|:----|:----|:------|:------|:------|
+| Lasso | 0.23 | 0.48  | 14.70  | 3.83  | 2.84  |
+| RF | 0.43 | 0.66 | 10.97 | 3.31 | 2.30 |
+| XGBoost | 0.47 | 0.68 | 10.17 | 3.19 | 2.00 |
+| LightGBM | 0.44 | 0.66 | 10.66 | 3.26 | 2.20 |
+| Conv1D | 0.21 | 0.46 | 15.16 | 3.89 | 2.90 |
+| GRU | 0.21 | 0.45 | 15.15 | 3.89 | 2.88 |
+| LSTM | 0.22 | 0.47 | 14.90 | 3.86 | 2.86 |
+| ConvLSTM | 0.19 | 0.43 | 15.53 | 3.94 | 2.92 |

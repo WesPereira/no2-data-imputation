@@ -92,3 +92,12 @@ A Tabela a seguir apresenta uma visão quantitativa comparativa dos resultados o
 <p align="justify">
 Nota-se que os modelos baseados em árvores de decisão como XGBoost, Random Forest e LightGBM superaram os modelos lineares e redes neurais nas métricas de avaliação. O XGBoost destacou-se por lidar melhor com a complexidade dos dados, enquanto o desempenho inferior das redes neurais sugere desafios em capturar dependências não sequenciais ou a necessidade de mais dados para treinamento.
 </p>
+
+<p  align="center">
+    <img src="assets/img/dist_plot.png" alt>
+    <em> <b>Figura 3: </b>Distribuição de erros absolutos por modelo, mostrando a comparação de desempenho entre LightGBM, XGBoost, Random Forest (RF), AdaBoost, GRU, Lasso, ConvLSTM e LSTM</em>
+</p>
+
+<p align="justify">
+Os boxplots mostram que modelos de Machine Learning como LightGBM, XGBoost e Random Forest têm um desempenho notavelmente melhor, com erros menores e menos variabilidade, enquanto o AdaBoost tem uma dispersão maior de erros e as redes neurais, incluindo GRU, LSTM e ConvLSTM, apresentam os maiores erros e mais outliers, indicando a necessidade de mais dados ou de dados mais complexos.
+</p>

@@ -101,3 +101,7 @@ Nota-se que os modelos baseados em árvores de decisão como XGBoost, Random For
 <p align="justify">
 Os boxplots mostram que modelos de Machine Learning como LightGBM, XGBoost e Random Forest têm um desempenho notavelmente melhor, com erros menores e menos variabilidade, enquanto o AdaBoost tem uma dispersão maior de erros e as redes neurais, incluindo GRU, LSTM e ConvLSTM, apresentam os maiores erros e mais outliers, indicando a necessidade de mais dados ou de dados mais complexos.
 </p>
+
+## Conclusão
+
+O projeto demonstrou que a metodologia empregada para estimar a concentração de NO2 na coluna troposférica é viável e eficaz, com destaque para os modelos baseados em árvore que apresentaram resultados notáveis. Apesar dos modelos de deep learning não terem atingido o mesmo nível de sucesso, eles oferecem uma base importante para pesquisas e aprimoramentos futuros.

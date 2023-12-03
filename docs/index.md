@@ -106,4 +106,6 @@ Os boxplots mostram que modelos de Machine Learning como LightGBM, XGBoost e Ran
 
 ### Conclusão
 
+<p align="justify">
 O projeto demonstrou que a metodologia empregada para estimar a concentração de NO2 na coluna troposférica é viável e eficaz, com destaque para os modelos baseados em árvore que apresentaram resultados notáveis. Apesar dos modelos de deep learning não terem atingido o mesmo nível de sucesso, eles oferecem uma base importante para pesquisas e aprimoramentos futuros.
+</p>

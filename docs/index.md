@@ -61,17 +61,13 @@ Assim, as seguintes variáveis foram selecionadas baseadas nos críterios defini
 
 <p align="justify">
 Ao longo do projeto, explorou-se uma gama de modelos de Machine Learning, de técnicas tradicionais a Deep Learning, selecionados com base em literatura prévia para resolver problemas de regressão. Os modelos testados incluem:
-    <ol>
+    <ul>
       <li>Lasso;</li>
       <li>Florestas aleatórias (Random Forest);</li>
-      <li>Algoritmos Baseados em Boosting:</li>
-        <ol>
-            <li>LightGBM;</li>
-            <li>XGBoost;</li>
-        </ol>
+      <li>Algoritmos Baseados em Boosting: LightGBM e XGBoost;</li>
       <li>Convolução 1D;</li>
       <li>Gated Recurrent Unit (GRU);</li>
       <li>Long Short-Term Memory (LSTM);</li>
       <li>Convolutional Long Short-Term Memory (ConvLSTM).</li>
-    </ol>
+    </ul>
 </p>

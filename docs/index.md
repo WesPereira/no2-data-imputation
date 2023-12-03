@@ -78,7 +78,7 @@ Ao longo do projeto, explorou-se uma gama de modelos de Machine Learning, de té
 A Tabela a seguir apresenta uma visão quantitativa comparativa dos resultados obtidos por cada modelo, destacando as principais métricas de avaliação.
 </p>
 
-| Modelo        | $R^2$          | r | MSE | RMSE | MAE |
+| Modelo        | R²          | r | MSE | RMSE | MAE |
 |:-------------|:----|:----|:------|:------|:------|
 | Lasso | 0.23 | 0.48  | 14.70  | 3.83  | 2.84  |
 | RF | 0.43 | 0.66 | 10.97 | 3.31 | 2.30 |
@@ -88,3 +88,7 @@ A Tabela a seguir apresenta uma visão quantitativa comparativa dos resultados o
 | GRU | 0.21 | 0.45 | 15.15 | 3.89 | 2.88 |
 | LSTM | 0.22 | 0.47 | 14.90 | 3.86 | 2.86 |
 | ConvLSTM | 0.19 | 0.43 | 15.53 | 3.94 | 2.92 |
+
+<p align="justify">
+Nota-se que os modelos baseados em árvores de decisão como XGBoost, Random Forest e LightGBM superaram os modelos lineares e redes neurais nas métricas de avaliação. O XGBoost destacou-se por lidar melhor com a complexidade dos dados, enquanto o desempenho inferior das redes neurais sugere desafios em capturar dependências não sequenciais ou a necessidade de mais dados para treinamento.
+</p>

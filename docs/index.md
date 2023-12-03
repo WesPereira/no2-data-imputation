@@ -44,6 +44,7 @@ Os critérios estabelecidos para a escolha das variáveis de sensoriamento remot
     </ol>
 
 Assim, as seguintes variáveis foram selecionadas baseadas nos críterios definidos acima:
+</p>
 
 | Nome da variável        | Código da Coleção          | Res. espacial (m) |
 |:-------------|:------------------|:------|
@@ -55,4 +56,3 @@ Assim, as seguintes variáveis foram selecionadas baseadas nos críterios defini
 | ```volumetric_soil_water_layer_1```           | ```ECMWF/ERA5_LAND/DAILY_AGGR``` | 11132  |
 | ```surface_latent_heat_flux_sum```           | ```ECMWF/ERA5_LAND/DAILY_AGGR``` | 11132  |
 | ```sm_surface```           | ```NASA/SMAP/SPL4SMGP/007``` | 11000  |
-</p>

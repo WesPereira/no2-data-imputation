@@ -96,7 +96,7 @@ Nota-se que os modelos baseados em árvores de decisão como XGBoost, Random For
 </p>
 
 <p  align="center">
-    <img src="assets/img/dist_plot.png" alt>
+    <img src="assets/img/dist_models_plot.png" alt>
     <em> <b>Figura 3: </b>Distribuição de erros absolutos por modelo, mostrando a comparação de desempenho entre LightGBM, XGBoost, Random Forest (RF), AdaBoost, GRU, Lasso, ConvLSTM e LSTM</em>
 </p>
 

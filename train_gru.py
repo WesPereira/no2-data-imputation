@@ -16,7 +16,7 @@ from src.models.trainer import ModelsTrainer
 from src.infer import infer
 
 
-DS_PATH = "/Users/wesleypereira/Documents/tcc/exploration/gee_exploration/data/processed/gee_ds_20231003_formatted"
+DS_PATH = "exploration/gee_exploration/data/processed/gee_ds_20231003_formatted"
 ARTIFACTS_PATH = 'artifacts/models_05112023/conv1d'
 EXPERIMENT_NAME = 'Conv1d'
 

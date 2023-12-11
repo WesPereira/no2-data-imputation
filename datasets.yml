@@ -1,0 +1,59 @@
+data:
+  - dataset_name: "Sentinel-5P OFFL NO2: Offline Nitrogen Dioxide"
+    image_ref: "COPERNICUS/S5P/OFFL/L3_NO2"
+    resolution: 1113.2
+    quality_band: "cloud_fraction"
+    downloaded: 0
+    bands:
+      - name: "tropospheric_NO2_column_number_density"
+        scale: -1
+
+  - dataset_name: "MCD19A2.061: Terra & Aqua MAIAC Land Aerosol Optical Depth Daily 1km"
+    image_ref: "MODIS/061/MCD19A2_GRANULES"
+    resolution: 1000
+    quality_band: "AOD_QA"
+    downloaded: 0
+    bands:
+      - name: "Optical_Depth_047"
+        scale: 0.001
+      - name: "Column_WV"
+        scale: 0.001
+
+  - dataset_name: "GPM: Global Precipitation Measurement (GPM) v6"
+    image_ref: "NASA/GPM_L3/IMERG_V06"
+    resolution: 11132
+    quality_band: ""
+    downloaded: 1
+    bands:
+      - name: "precipitationCal"
+        scale: -1
+
+  - dataset_name: "ERA5-Land Daily Aggregated - ECMWF Climate Reanalysis"
+    image_ref: "ECMWF/ERA5_LAND/DAILY_AGGR"
+    resolution: 11132
+    quality_band: ""
+    downloaded: 1
+    bands:
+      - name: "temperature_2m"
+        scale: -1
+      - name: "evaporation_from_bare_soil_sum"
+        scale: -1
+      - name: "volumetric_soil_water_layer_1"
+        scale: -1
+      - name: "surface_latent_heat_flux_sum"
+        scale: -1
+
+  - dataset_name: "SPL4SMGP.007 SMAP L4 Global 3-hourly 9-km Surface and Root Zone Soil Moisture"
+    image_ref: "NASA/SMAP/SPL4SMGP/007"
+    resolution: 11000
+    quality_band: ""
+    downloaded: 1
+    bands:
+      - name: "sm_surface"
+        scale: -1
+
+parameters:
+  start_date: "2017-05-01"
+  end_date: "2023-05-01"
+  output_file: "data/raw/gee_ds_20231204/"
+

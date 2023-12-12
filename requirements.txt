@@ -1,0 +1,10 @@
+matplotlib
+pandas
+earthengine-api
+scikit-learn
+numpy
+plotly==5.14.1
+google-cloud-storage
+fire
+shapely
+mlflow
